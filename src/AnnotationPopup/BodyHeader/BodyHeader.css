@@ -2,8 +2,8 @@
   align-items: center;
   display: flex;
   flex-direction: row;
-  font-size: var(--font-tiny);
-  line-height: 1.2em;
+  font-size: 13px;
+  line-height: 1.1em;
   white-space: nowrap;
   width: 100%;
 }
@@ -17,17 +17,16 @@
 }
 
 .annotation-body-header .avatar {
-  margin-right: 10px;
-  margin-top: -2px;
+  margin-right: 8px;
+  margin-top: 0;
 }
 
 .annotation-body-header address {
-  font-size: 1em;
   font-style: normal;
   font-weight: 500;
 }
 
 .annotation-body-header time {
   color: var(--font-light);
-  font-size: 0.875em;
+  font-size: 11px;
 }

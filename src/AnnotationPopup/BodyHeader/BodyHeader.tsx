@@ -16,7 +16,7 @@ export const BodyHeader = () => {
         </address>
 
         <div className="annotation-body-created-at">
-          2 weeks ago
+          <time>2 weeks ago</time>
         </div>
       </div>
     </div>
