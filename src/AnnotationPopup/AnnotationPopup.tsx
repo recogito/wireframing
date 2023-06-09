@@ -1,7 +1,7 @@
 import { BodyHeader } from './BodyHeader';
 import { ReplyForm } from './ReplyForm';
 import { TagList } from './TagList';
-import { Placeholder } from './Placeholder';
+import { Interstitial } from './Interstitial';
 
 import './AnnotationPopup.css';
 
@@ -25,7 +25,7 @@ Rainer`}
         </li>
 
         <li className="n-more">
-          <Placeholder />
+          <Interstitial />
         </li>
 
         <li>

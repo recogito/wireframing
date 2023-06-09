@@ -1,7 +1,7 @@
 import { Detective, DotsThreeVertical } from '@phosphor-icons/react';
 import { ReplyForm } from './ReplyForm';
 import { TagList } from './TagList';
-import { Placeholder } from './Placeholder';
+import { Interstitial } from './Interstitial';
 
 import './PrivateAnnotationPopup.css';
 
@@ -28,7 +28,7 @@ export const PrivateAnnotationPopup = () => {
         </li>
 
         <li className="n-more">
-          <Placeholder />
+          <Interstitial />
         </li>
 
         <li>

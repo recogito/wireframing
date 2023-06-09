@@ -1,4 +1,4 @@
-.annotation-comments-collapsed {
+.annotation-comments-interstitial {
   align-items: center;
   margin: 0;
   display: flex;
@@ -8,13 +8,13 @@
   margin: -0.25em 0;
 }
 
-.annotation-comments-collapsed .divider {
+.annotation-comments-interstitial .divider {
   width: 100%;
   position: absolute;
   border-top:1px solid var(--gray-100);
 }
 
-.annotation-comments-collapsed .label {
+.annotation-comments-interstitial .label {
   background-color: #fff;
   color: #979ea5;
   font-size: 12px;

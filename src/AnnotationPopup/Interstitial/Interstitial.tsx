@@ -1,9 +1,9 @@
-import './Placeholder.css';
+import './Interstitial.css';
 
-export const Placeholder = () => {
+export const Interstitial = () => {
 
   return (
-    <div className="annotation-comments-collapsed">
+    <div className="annotation-comments-interstitial">
       <div className="divider" />
       <div className="label">
         Show 3 more replies

@@ -33,7 +33,7 @@ textarea::placeholder {
 }
 
 .annotation-reply-form button {
-  background: var(--gray-500);
+  background: var(--bright-blue);
   border-radius: 50%;
   color: #fff;
   outline: none;
@@ -47,8 +47,8 @@ textarea::placeholder {
 }
 
 .annotation-reply-form .send {
-  color: var(--font-light);
+  color: #fff;
   position: absolute;
   right: 15px;
-  top: 12px;
+  top: 13px;
 }
