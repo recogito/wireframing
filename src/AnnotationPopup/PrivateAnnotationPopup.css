@@ -1,0 +1,56 @@
+.annotation-popup.private {
+  background-color: #172634;
+  /* background-color: #2e3c4a; */
+  color: rgba(255, 255, 255, 0.85);
+  position: relative;
+}
+
+.annotation-popup.private .private-avatar {
+  position: absolute;
+  top: 27px;
+  left: 20px;
+}
+
+.annotation-popup.private article .actions {
+  position: absolute;
+  top: 27px;
+  right: 15px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.annotation-popup.private .annotation-comments-collapsed .divider {
+  border-top:1px solid rgba(255, 255, 255, 0.15);
+}
+
+.annotation-popup.private .annotation-comments-collapsed .label {
+  background-color: #172634;
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 12px;
+  position:relative;
+  padding: 0 5px;
+}
+
+.annotation-popup.private .annotation-tag-list {
+  background-color: #162634; 
+  border: none;
+}
+
+.annotation-popup.private .annotation-tag-list li {
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.annotation-popup.private .annotation-reply-form {
+  border: none;
+  padding-left: 7px;
+}
+
+.annotation-popup.private textarea::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.annotation-popup.private .annotation-reply-form button {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.65);
+}

@@ -1,8 +1,8 @@
 .annotation-tag-list {
   background-color: var(--gray-50);
-  border-top: 1px solid var(--gray-100);
-  border-radius: 0 0 5px 5px;
-  padding: 12px 10px 7px 10px;
+  border-bottom: 1px solid var(--gray-100);
+  border-radius: 5px 5px 0 0;
+  padding: 15px 10px 7px 15px;
   position: relative;
 }
 
@@ -25,9 +25,14 @@
   padding: 2px 4px;
 }
 
+.annotation-tag-list li.more {
+  border: none;
+  background: none;
+}
+
 .annotation-tag-list .actions {
   position: absolute;
-  right: 14px;
-  top: 12px;
+  right: 20px;
+  top: 15px;
   color: #979ea5;
 }

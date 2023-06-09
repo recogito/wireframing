@@ -9,6 +9,8 @@ export const AnnotationPopup = () => {
 
   return (
     <div className="annotation-popup">
+      <TagList />
+
       <ul>
         <li>
           <article>
@@ -35,8 +37,6 @@ Rainer`}
           </article>
         </li>
       </ul>
-
-      <TagList />
 
       <ReplyForm />
     </div>

@@ -20,9 +20,8 @@ export const TagList = () => {
           <Tag>MyTag</Tag>
         </li>
 
-        <li>
-          <Tag>This Is A Very Long Tag Just To Try Things Out</Tag>
-        </li>
+        <li className="more">+3 more</li>
+
       </ul>
 
       <div className="actions">
