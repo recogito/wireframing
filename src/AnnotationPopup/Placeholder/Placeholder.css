@@ -1,10 +1,11 @@
 .annotation-comments-collapsed {
   align-items: center;
-  margin: 10px 0 0 0;
+  margin: 0;
   display: flex;
   font-size: 13px;
   justify-content: center;
   position: relative;
+  margin: -0.25em 0;
 }
 
 .annotation-comments-collapsed .divider {
@@ -18,5 +19,4 @@
   color: #979ea5;
   font-size: 12px;
   position:relative;
-  padding: 0 5px;
 }

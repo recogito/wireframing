@@ -5,4 +5,4 @@ import { PrivateAnnotationPopup } from './AnnotationPopup';
 import './index.css';
 
 const root = createRoot(document.getElementById('root'));
-root.render(<PrivateAnnotationPopup />);
+root.render(<AnnotationPopup />);
