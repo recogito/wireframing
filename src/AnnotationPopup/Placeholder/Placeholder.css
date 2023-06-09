@@ -1,0 +1,22 @@
+.annotation-comments-collapsed {
+  align-items: center;
+  margin: 10px 0;
+  display: flex;
+  font-size: 13px;
+  justify-content: center;
+  position: relative;
+}
+
+.annotation-comments-collapsed .divider {
+  width: 100%;
+  position: absolute;
+  border-top:1px solid var(--gray-100);
+}
+
+.annotation-comments-collapsed .label {
+  background-color: #fff;
+  color: #979ea5;
+  font-size: 12px;
+  position:relative;
+  padding: 0 5px;
+}

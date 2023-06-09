@@ -4,6 +4,7 @@
   flex-direction: row;
   font-size: 13px;
   line-height: 1.1em;
+  position: relative;
   white-space: nowrap;
   width: 100%;
 }
@@ -29,4 +30,10 @@
 .annotation-body-header time {
   color: var(--font-light);
   font-size: 11px;
+}
+
+.annotation-body-header .actions {
+  position: absolute;
+  right: 5px;
+  color: #979ea5;
 }

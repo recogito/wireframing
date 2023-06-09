@@ -1,4 +1,7 @@
 import { BodyHeader } from './BodyHeader';
+import { ReplyForm } from './ReplyForm';
+import { TagList } from './TagList';
+import { Placeholder } from './Placeholder';
 
 import './AnnotationPopup.css';
 
@@ -9,7 +12,7 @@ export const AnnotationPopup = () => {
       <ul>
         <li>
           <article>
-            <BodyHeader />
+            <BodyHeader user="aboutgeo" />
             <p>
               {`This is a comment.
 
@@ -20,18 +23,22 @@ Rainer`}
         </li>
 
         <li className="n-more">
-
+          <Placeholder />
         </li>
 
         <li>
           <article>
-            <BodyHeader />
+            <BodyHeader user="Rainer Simon" />
             <p>
               This is a reply.
             </p>
           </article>
         </li>
       </ul>
+
+      <TagList />
+
+      <ReplyForm />
     </div>
   )
 

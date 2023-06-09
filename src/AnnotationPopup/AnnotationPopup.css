@@ -16,14 +16,14 @@
 }
 
 .annotation-popup article {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+  /* border-bottom: 1px solid var(--gray-100); */
   font-size: 13px;
-  margin-bottom: 5px;
   padding: 10px;
 }
 
 .annotation-popup li:last-child article {
   border-bottom: none;
+  margin-bottom: 10px;
 }
 
 .annotation-popup article p {
