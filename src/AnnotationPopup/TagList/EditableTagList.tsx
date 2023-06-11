@@ -1,5 +1,4 @@
-import { DotsThreeVertical } from '@phosphor-icons/react';
-import { Tag } from './Tag';
+import { Tag } from '@phosphor-icons/react';
 
 import './TagList.css';
 import './EditableTagList.css';
@@ -9,12 +8,8 @@ export const EditableTagList = () => {
   return (
     <div className="annotation-tag-list editable">
       <ul>
-        <li className="more">Add a tag</li>
+        <li className="more"><Tag size={14} weight="bold" />Click to add tags...</li>
       </ul>
-
-      <div className="actions">
-        <DotsThreeVertical size={20} weight="bold" />
-      </div>
     </div>
   )
 

@@ -7,9 +7,9 @@ import './EmptyPopup.css';
 export const EmptyPopup = () => {
 
   return (
-    <div className="annotation-popup">
+    <div className="annotation-popup empty">
       <EditableTagList />
-      <ReplyForm />
+      <ReplyForm placeholder="Comment..." />
     </div>
   )
 

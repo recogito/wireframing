@@ -3,7 +3,13 @@ import { Avatar } from '../Avatar';
 
 import './ReplyForm.css';
 
-export const ReplyForm = () => {
+interface ReplyFormProps {
+
+  placeholder?: string
+
+}
+
+export const ReplyForm = (props: ReplyFormProps) => {
 
   return (
     <form className="annotation-reply-form no-drag">
@@ -11,7 +17,7 @@ export const ReplyForm = () => {
 
       <textarea 
         rows={1} 
-        placeholder="Reply..." />
+        placeholder={props.placeholder || 'Reply...'} />
 
       <div className="send">
         <button>
