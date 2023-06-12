@@ -9,7 +9,7 @@
 .delete {
   align-items: center;
   background-color: var(--red-500);
-  border: 1px solid var(--gray-300);
+  border: none;
   border-radius: 50%;
   box-shadow:
     2.4px 3.9px 3.3px rgba(0, 0, 0, 0.034),
@@ -17,6 +17,7 @@
     15.7px 25.9px 22px rgba(0, 0, 0, 0.046),
     52px 86px 73px rgba(0, 0, 0, 0.07);
   color: #fff;
+  cursor: pointer;
   display: flex;
   height: 40px;
   justify-content: center;
@@ -25,6 +26,6 @@
   pointer-events: all;
   position: absolute;
   right: -52px;
-  top: 58px;
+  top: 6px;
   width: 40px;
 }

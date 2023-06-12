@@ -1,0 +1,57 @@
+.annotation-popup.locked {
+  padding: 10px;
+}
+
+.annotation-popup.locked .actions {
+  display: none;
+}
+
+.annotation-popup.locked .writing {
+  padding: 25px 0 15px 18px;
+  display: flex;
+  justify-content: flex-start;
+  --dot-color: var(--font-light);
+}
+
+
+/* https://codepen.io/nzbin/pen/GGrXbp */
+/**
+ * ==============================================
+ * Dot Typing
+ * ==============================================
+ */
+ .dot-typing {
+  position: relative;
+  left: -9999px;
+  width: 5px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: var(--dot-color);
+  color: var(--dot-color);
+  box-shadow: 9989px 0 0 0 var(--dot-color), 9999px 0 0 0 var(--dot-color), 10009px 0 0 0 var(--dot-color);
+  animation: dot-typing 1.2s infinite linear;
+}
+
+@keyframes dot-typing {
+  0% {
+    box-shadow: 9989px 0 0 0 var(--dot-color), 9999px 0 0 0 var(--dot-color), 10009px 0 0 0 var(--dot-color);
+  }
+  16.667% {
+    box-shadow: 9989px -5px 0 0 var(--dot-color), 9999px 0 0 0 var(--dot-color), 10009px 0 0 0 var(--dot-color);
+  }
+  33.333% {
+    box-shadow: 9989px 0 0 0 var(--dot-color), 9999px 0 0 0 var(--dot-color), 10009px 0 0 0 var(--dot-color);
+  }
+  50% {
+    box-shadow: 9989px 0 0 0 var(--dot-color), 9999px -5px 0 0 var(--dot-color), 10009px 0 0 0 var(--dot-color);
+  }
+  66.667% {
+    box-shadow: 9989px 0 0 0 var(--dot-color), 9999px 0 0 0 var(--dot-color), 10009px 0 0 0 var(--dot-color);
+  }
+  83.333% {
+    box-shadow: 9989px 0 0 0 var(--dot-color), 9999px 0 0 0 var(--dot-color), 10009px -5px 0 0 var(--dot-color);
+  }
+  100% {
+    box-shadow: 9989px 0 0 0 var(--dot-color), 9999px 0 0 0 var(--dot-color), 10009px 0 0 0 var(--dot-color);
+  }
+}

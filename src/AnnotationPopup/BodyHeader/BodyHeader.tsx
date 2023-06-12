@@ -17,7 +17,7 @@ export const BodyHeader = (props: { user: string }) => {
         </address>
 
         <div className="annotation-body-created-at">
-          <time>2 weeks ago</time>
+          <time>just now</time>
         </div>
       </div>
 
