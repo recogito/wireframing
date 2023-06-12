@@ -1,3 +1,30 @@
 .annotation-popup.empty .annotation-tag-list {
   border-bottom: none;
 }
+
+.container {
+  position: relative;
+}
+
+.delete {
+  align-items: center;
+  background-color: var(--red-500);
+  border: 1px solid var(--gray-300);
+  border-radius: 50%;
+  box-shadow:
+    2.4px 3.9px 3.3px rgba(0, 0, 0, 0.034),
+    6.5px 10.8px 9.1px rgba(0, 0, 0, 0.035),
+    15.7px 25.9px 22px rgba(0, 0, 0, 0.046),
+    52px 86px 73px rgba(0, 0, 0, 0.07);
+  color: #fff;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  outline: none;
+  padding: 0;
+  pointer-events: all;
+  position: absolute;
+  right: -52px;
+  top: 4px;
+  width: 40px;
+}
