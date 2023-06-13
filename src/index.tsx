@@ -7,4 +7,4 @@ import { LockedInitial } from './AnnotationPopup/LockedInitial';
 import './index.css';
 
 const root = createRoot(document.getElementById('root'));
-root.render(<LockedInitial />);
+root.render(<AnnotationPopup />);

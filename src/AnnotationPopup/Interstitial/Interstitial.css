@@ -16,7 +16,16 @@
 
 .annotation-comments-interstitial .label {
   background-color: #fff;
+  border: 1px solid var(--gray-100);
+  border-radius: 99999px;
   color: #979ea5;
   font-size: 12px;
+  padding: 0 10px;
   position:relative;
+}
+
+.annotation-comments-interstitial .label svg {
+  padding-left: 1ch;
+  position: relative;
+  top: 2px;
 }
