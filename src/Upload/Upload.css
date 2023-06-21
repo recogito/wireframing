@@ -1,6 +1,6 @@
 .upload-progress {
   background-color: #fff;
-  border-radius: 3px;
+  border-radius: 5px;
   box-shadow:
     2.4px 3.9px 3.3px rgba(0, 0, 0, 0.024),
     6.5px 10.8px 9.1px rgba(0, 0, 0, 0.035),
@@ -12,7 +12,7 @@
 .upload-progress .title {
   align-items: center;
   background-color: var(--gray-50);
-  border-radius: 3px 3px 0 0;
+  border-radius: 5px 5px 0 0;
   color: var(--font-dark);
   display: flex;
   flex-direction: row;
@@ -40,15 +40,10 @@
 
 .upload-progress li {
   align-items: center;
-  border-top: 1px solid var(--gray-100);
   display: flex;
   font-size: var(--font-tiny);
   padding: 10px 12px;
   position: relative;
-}
-
-.upload-progress li:first-child {
-  border-top: none;
 }
 
 .upload-progress li svg.filetype {
@@ -65,11 +60,11 @@
 }
 
 .upload-progress li svg.progress-meter.success {
-  right: 11px;
+  right: 10px;
   color: #11a011;
 }
 
 .upload-progress li svg.progress-meter.error {
-  right: 11px;
+  right: 10px;
   color: #da1e26;
 }

@@ -8,8 +8,4 @@ import { Upload } from './Upload';
 import './index.css';
 
 const root = createRoot(document.getElementById('root'));
-<<<<<<< HEAD
-root.render(<AnnotationPopup />);
-=======
 root.render(<Upload />);
->>>>>>> 73a717a (Wireframe: upload progress widget)

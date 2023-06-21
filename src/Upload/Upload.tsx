@@ -10,7 +10,7 @@ export const Upload = () => {
   return (
     <div className="upload-progress">
       <div className="title">
-        <h1>Uploading 1 item</h1>
+        <h1>Importing 1 item</h1>
         <X size={20} />
       </div>
       <div className="message">
@@ -20,7 +20,8 @@ export const Upload = () => {
         <li>
           <ImagesSquare className="filetype" size={20} />
           <span className="filename">test_01.jpg</span>
-          <XCircle className="progress-meter error" size={24} weight="fill" />
+          {/* <XCircle className="progress-meter error" size={24} weight="fill" /> */}
+          <CheckCircle className="progress-meter success" size={24} weight="fill" />
         </li>
 
         <li>
